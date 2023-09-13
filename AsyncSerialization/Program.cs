@@ -7,7 +7,7 @@ public class Program
 {
 	static async Task Main(string[] args)
 	{
-		var weatherForecast = new WeatherForecast
+		var weatherForecast = new BasicWeatherForecast
 		{
 			Date = DateTime.Parse("2021-12-01"),
 			TemperatureCelsius = 25,
