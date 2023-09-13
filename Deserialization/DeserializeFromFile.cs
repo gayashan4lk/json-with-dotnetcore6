@@ -23,6 +23,12 @@ public static class DeserializeFromFile
 		Console.WriteLine(result);
 		Console.WriteLine($"Date: {result.Date}");
 		Console.WriteLine($"Temp: {result.TemperatureCelsius} oC");
-		Console.WriteLine($"Summery: {result.Summary}");
+		Console.WriteLine($"Summary: {result.Summary}");
+		Console.WriteLine($"Pressure: {result.Pressure}");
+		Console.WriteLine($"Humidity: {result.Humidity}");
+		Console.WriteLine($"Coordinates: {result.Coordinates}");
+		Console.WriteLine($"Wind: {result.Wind}");
+		Console.WriteLine($"SummaryWords: {result.SummaryWords}");
+
 	}
 }
