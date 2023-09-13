@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDeserialization", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonDocumentDemo", "..\JsonDocumentDemo\JsonDocumentDemo.csproj", "{B77497FC-EAF2-4DD3-B381-686F0CB62828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonNodeDemo", "..\JsonNodeDemo\JsonNodeDemo.csproj", "{209F3EF9-3F8B-41BA-BFEB-D73A6ABBFC5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B77497FC-EAF2-4DD3-B381-686F0CB62828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B77497FC-EAF2-4DD3-B381-686F0CB62828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B77497FC-EAF2-4DD3-B381-686F0CB62828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209F3EF9-3F8B-41BA-BFEB-D73A6ABBFC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209F3EF9-3F8B-41BA-BFEB-D73A6ABBFC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209F3EF9-3F8B-41BA-BFEB-D73A6ABBFC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209F3EF9-3F8B-41BA-BFEB-D73A6ABBFC5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
