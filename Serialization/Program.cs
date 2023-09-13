@@ -1,8 +1,9 @@
 ﻿using System.Text.Json;
+using Domain;
 
 namespace Serialization;
 
-internal class Program
+public class Program
 {
 	private static void Main(string[] args)
 	{
@@ -29,7 +30,7 @@ internal class Program
 
 		//3. Serialization to a file
 		// Name of the file where the JSON string is stored
-		const string fileName = "WeatherForecast.json";
+		const string fileName = "output.json";
 
 		// Write to the console the serialized JSON text
 		File.WriteAllText(fileName, jsonString);
