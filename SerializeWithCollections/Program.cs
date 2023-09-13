@@ -7,9 +7,9 @@ namespace SerializeWithCollections
 	{
 		static void Main(string[] args)
 		{
-			var fullWeatherForecast = new FullWeatherForecast
+			var fullWeatherForecast = new WeatherForecast
 			{
-				Date = DateTime.Parse("2021-12-01"),
+				Date = DateTime.Parse("2021-12-01"), 
 				TemperatureCelsius = 17,
 				Summary = "Overcast Clouds",
 				Pressure = 1018,

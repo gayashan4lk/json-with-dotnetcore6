@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-	public class FullWeatherForecast : WeatherForecast
+	public class WeatherForecast : BasicWeatherForecast
 	{
 		public int Pressure { get; set; }
 		public int Humidity { get; set; }

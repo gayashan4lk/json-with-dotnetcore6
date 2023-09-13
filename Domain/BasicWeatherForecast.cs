@@ -1,6 +1,6 @@
 ﻿namespace Domain
 {
-	public class WeatherForecast
+	public class BasicWeatherForecast
 	{
 		public DateTimeOffset Date { get; set; }
 		public int TemperatureCelsius { get; set; }
